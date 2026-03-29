@@ -1,0 +1,14 @@
+# requirements.txt
+streamlit>=1.32.0
+pandas>=2.0.0
+numpy>=1.24.0
+requests>=2.31.0
+python-dateutil>=2.8.0
+
+# 可选依赖（根据你的实际使用情况选择安装）
+akshare>=1.14.0          # 用于基准数据
+baostock>=0.8.0          # BaoStock 数据源
+tushare>=1.4.0           # Tushare 数据源（需配置 token）
+yfinance>=0.2.0          # Yahoo Finance（QDII基准）
+
+# 如果你使用 Streamlit Cloud 或服务器部署，建议固定版本
